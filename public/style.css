@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo{
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 1%;
+    font-size: 18px;
+}
+
+.logo-start {
+    color: red;
+}
+
+.logo-end {
+    color: white;
+}
+
+.navbar{
+    height: 20%;
+}
+
+.nav-item {
+    color: white;
+}
+
+.me-2 {
+    margin-left: 0.5rem;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.btn {
+    height: 80%;
+}
+
+.content {
+    background-color: black;
+    max-width: inherit;
+}
+
+.judul {
+    font-size: 5px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.judul h4 {
+    margin-bottom: 0;
+}
+
+.form-control {
+    width: 200%;
+    justify-content: center;
+}
+
+.btn-submit {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+.login-desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.login-desc a {
+    color: red;
+    text-decoration: none;
+}
+
+.btn-submit {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.popular-header{
+    padding: 20px 20px 10px 20px;
+    color: white;
+}
+
+.movie-list {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.movie-list img {
+    width: 70%;
+}
+
+.movie-list-item {
+    display: flex-start;
+}
+
+.movie-year {
+    color: gray;
+}
+
+.show-header{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-header #search {
+    width: 200px;
+    height: 80%;
+}
+
+.carousel-inner-genre {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+#genre-navbar button{
+    display: inline-block;
+}
+#sort-navbar {
+    display: flex;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-sort{
+    width: 120%;
+    height: 60%;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #323233;
+    border-color: #323233;
+}
+
+.movie-container{
+    background-color: black;
+}
+
+#container-actor {
+    padding : 10px;
+}
+
+.btn-add-more {
+    margin-top: 20px;
+}
+
+.profile-container {
+    padding: 10% 0% 10% 0%;
+    display: flex;
+}
+
+.profile-left {
+    padding-top: 12%;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    width: 30%;
+}
+
+.profile-image {
+    width: 120px;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 25%;
+    justify-content: center;
+}
+
+.profile-image .btn {
+    width: inherit;
+    margin-left: 25%;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.profile-desc {
+    justify-content: center;
+}
+
+.profile-form-right {
+    width: 60%;
+}
+
+.profile-form-header {
+    padding-bottom: 5%;
+}
+
+.watchlst-header {
+    padding: 5% 0% 4% 0%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filter-container {
+    display: flex;
+    padding: 3% 0% 1% 0%;
+}
+
+.filter-container i {
+    padding-top: 1.5%;
+}
+
+.dropdown-filter .btn{
+    background-color: black;
+}
+
+.watchlist-container {
+    background-color: black;
+}
+
+footer{
+    background-color: #323233;
+    color: white;
+    height: 60%;
+    margin-top: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.foot-logo p{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.foot-logo-start {
+    color: red;
+}
+
+.foot-logo-end {
+    color: white;
+}
+
+.logo2 p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.error{
+    color: red;
+}
+
+.logo2-start {
+    font-weight: bold;
+    color: red;
+}
+
+.logo2-end {
+    font-weight: bold;
+    color: white;
+}
+
+.logo-desc {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.foot-desc {
+    margin-bottom: 0.4rem;
+}
+
+.sosmed a {
+    margin-top: 0.2rem;
+    margin-right: 5px;
+    margin-bottom: 0.6rem;
+    justify-content: center;
+}
+
+.sosmed a i{
+    width: max-content;
+}
+
+/* ACTORS */
+#actors .card, #actor-detail .card {
+    background-color: #323233;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#actors .card-body {
+    padding: 5px;
+}
+
+#actors img {
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+#actors .actor-name a {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#actors .actor-name a:hover {
+    text-decoration: underline;
+}
+
+#actors .actor-movies {
+    color: #686868;
+    font-size: 12px;
+}
+
+/* ACTOR DETAIL */
+#actor-detail {
+    color: #ffffff;
+}
+
+#actor-detail .actor-name {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#actor-detail img {
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+#actor-detail .title {
+    font-size: 20px;
+}
+
+#actor-detail .subtitle {
+    font-size: 18px;
+}
+
+#actor-detail .sub-subtitle {
+    font-size: 14px;
+}
+
+#actor-detail .sub-value {
+    font-size: 12px;
+    color: #686868;
+    margin-bottom: 8px;
+}
+
+#actor-detail .movie-title {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#actor-detail .admin-features {
+    position: absolute;
+    right: 0;
+}
+
+#actor-detail .admin-features a {
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 7px 10px;
+    margin: 8px;
+    margin-bottom: 0;
+    background-color: rgb(194, 49, 49);
+}
+
+.col2 {
+    display: flex;
+    justify-content: flex-end;
+}
